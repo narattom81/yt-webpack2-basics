@@ -1,3 +1,5 @@
+import {secretButton,secretParagraph} from './dom-loader'
+
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
@@ -11,7 +13,7 @@ function toggleSecretState() {
 
 function updateSecretButton() {
     if (showSecret) {
-        secretButton.textContent = 'Hide the Secret';
+        secretButton.textContent = 'Hide the Secret123';
     } else {
         secretButton.textContent = 'Show the Secret';
     }
